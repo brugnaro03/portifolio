@@ -19,4 +19,19 @@ a {
 }
 
 /*Cabeçalho*/
-background
+header {
+    background:linear-gradient(135deg, #3498db, #2c3e50) ;
+    color: white;
+    text-align: center;
+    padding: 2rm 0;
+    position: relative;
+}
+.profile-img { 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px  rgba(0,0, 0, 0)
+}
