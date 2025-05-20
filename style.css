@@ -109,3 +109,23 @@ section h2::after{
     min-width: 300px;
 
 }
+
+/*Projetos*/
+.projects-grid {
+display: grid;
+grid-template-columns:repeat(auto-fill, minimax(300px,1fr));
+gap: 2rem;
+}
+
+.projects-card{
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0, 0, 0.1);
+    transition: transform 0.3s, box-shadw 0.3s;
+}
+
+.projects-card:houver{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20x rgba(0,0, 0, 0.1);
+}
